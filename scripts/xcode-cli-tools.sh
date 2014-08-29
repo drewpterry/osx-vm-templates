@@ -16,7 +16,7 @@ if [ "$OSX_VERS" -ge 9 ]; then
 
     # install it
     # amazingly, it won't find the update if we put the update ID in double-quotes
-    softwareupdate -i "$PROD" -v
+    softwareupdate -i $PROD -v
  
 # on 10.7/10.8, we instead download from public download URLs, which can be found in
 # the dvtdownloadableindex:
